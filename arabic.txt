@@ -1,0 +1,177 @@
+### File header must not be modified
+### This file must be encoded in UTF-8.
+###
+### For information about X-SAMPA see also
+###     http://www.phon.ucl.ac.uk/home/sampa/home.htm
+###     http://www.phon.ucl.ac.uk/home/sampa/x-sampa.htm
+###     http://www.phon.ucl.ac.uk/home/sampa/ipasam-x.pdf
+###
+### This table was mostly created by converting ipa-x-sampa.scm
+### from the uim project. See http://uim.freedesktop.org/ 
+###
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = 235162b9-8dce-4cce-92e6-1e0058a76c4b
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20200929135020
+
+ICON = arabic.png
+
+### The symbol to be displayed in IM switchers
+SYMBOL = A
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = AR
+
+### The default name of this table
+NAME = العربية
+
+### The local names of this table 
+###NAME.de_DE = 
+
+### Supported languages of this table
+LANGUAGES = arb
+
+### The author of this table
+AUTHOR = oderalon <sld@oderalon.net>
+
+### Layout
+### This table can be used with any layout capable of typing ASCII.
+### Therefore, we should not require a special layout like “us”.
+LAYOUT = default
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = TRUE
+
+### Single wildcard char (leave empty if you don’t want a wildcard character).
+SINGLE_WILDCARD_CHAR =
+
+### Multi wildcard char (leave empty if you don’t want a wildcard character).
+MULTI_WILDCARD_CHAR =
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = TRUE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = TRUE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = FALSE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = TRUE
+
+### Enable full width punctuation property
+USE_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Enable full width letter property
+USE_FULL_WIDTH_LETTER = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 2
+
+### Valid input chars.
+VALID_INPUT_CHARS == abcçdefghijklmnopqrstuvwxyzABCÇDEFGHIJKLMNOPQRSTUVWXYZ@#1234567890@
+
+### The key strokes to split inputted string.
+###SPLIT_KEYS = quoteright
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = space,Return
+
+### The key strokes to forward the inputted string to client.
+### FORWARD_KEYS = Return
+
+### The key strokes to select candidiate phrases.
+SELECT_KEYS = F1,F2,F3,F4,F5,F6,F7,F8,F9
+
+### The default orientation of the candidate list
+### FALSE means the candidate list is horizontal, TRUE means it is vertical
+ORIENTATION=FALSE
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = Page_Up
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = Page_Down
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+a	ا	1
+b	ب	1
+d	د	1
+f	ف	1
+g	غ	1
+h	ه	1
+j	ج	1
+k	ك	1
+l	ل	1
+m	م	1
+n	ن	1
+o	ع	1
+q	ق	1
+r	ر	1
+s	س	1
+t	ت	1
+v	ة 	1
+w	و	1
+x	خ	1
+y	ي	1
+z	ز	1
+A	آ	1
+D	ذ	1
+H	ح	1
+S	ش	1
+T	ث	1
+Y	ى	1
+ps	ص	1
+pd	ض	1
+pt	ط	1
+pz	ظ	1
+pp	پ	1
+e	ء	1
+@@	ء	1
+@e	ء	1
+@a	أ	1
+@i	إ	1
+@u	ؤ	1
+@w	ؤ	1
+@y	ئ	1
+0	٠	1
+1	١	1
+2	٢	1
+3	٣	1
+4	٤	1
+5	٥	1
+6	٦	1
+7	٧	1
+8	٨	1
+9	٩	1
+
+END_TABLE

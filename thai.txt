@@ -1,0 +1,130 @@
+### File header must not be modified
+### This file must be encoded in UTF-8.
+###
+###
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+BEGIN_DEFINITION
+UUID = 47AB426D-E106-4DDC-85E8-6ED39B75E57E
+SERIAL_NUMBER = 20210320210803646
+ICON = /home/qvasimodo/keyboards/thai.png
+SYMBOL = ไทย
+STATUS_PROMPT = ไทย
+NAME = Thai
+LANGUAGES = tha
+VALID_INPUT_CHARS == '"1!¹2@²3#³4$£5%¢6¨¬7&8*9(0)-_=+§qQwWeE€rRtTyYuUiIoOpP'`[{ªaAsSdDfFgGhHjJkKlLçÇ~^]}º\|zZxXcCvVbBnNmM,<.>;:/?°
+
+DESCRIPTION = Simple Thai Keyboard
+AUTHOR = QVASIMODO (sld@oderalon.net)
+COMMIT_KEYS = space,Return
+PAGE_DOWN_KEYS = Page_Down
+PAGE_UP_KEYS = Page_Up
+SELECT_KEYS = F1,F2,F3,F4,F5,F6,F7,F8,F9
+LICENSE = LGPL
+MAX_KEY_LENGTH = 6
+AUTO_COMMIT = TRUE
+AUTO_SELECT = FALSE
+DEF_FULL_WIDTH_PUNCT = FALSE
+DEF_FULL_WIDTH_LETTER = FALSE
+USER_CAN_DEFINE_PHRASE = FALSE
+PINYIN_MODE = FALSE
+DYNAMIC_ADJUST = FALSE
+ORIENTATION = FALSE
+LAYOUT = br_nodeadkeys
+AUTO_WILDCARD = TRUE
+AUTO_SPLIT = TRUE
+ALWAYS_SHOW_LOOKUP = TRUE
+AUTO_FILL = FALSE
+USE_FULL_WIDTH_PUNCT = FALSE
+USE_FULL_WIDTH_LETTER = FALSE
+END_DEFINITION
+
+BEGIN_TABLE
+k	ก	0
+K2	ข	0
+K3	ฃ	0
+K1	ค	0
+K4	ฅ	0
+K5	ฆ	0
+ng	ง	0
+c	จ	0
+C1	ฉ	0
+C2	ช	0
+S3	ซ	0
+C3	ฌ	0
+Y	ญ	0
+D	ฎ	0
+T2	ฏ	0
+T3	ฐ	0
+T4	ฑ	0
+T5	ฒ	0
+n2	ณ	0
+d	ด	0
+t	ต	0
+T6	ถ	0
+T1	ท	0
+T7	ธ	0
+n1	น	0
+b	บ	0
+p	ป	0
+P2	ผ	0
+F	ฝ	0
+P1	พ	0
+f	ฟ	0
+P3	ภ	0
+m	ม	0
+y	ย	0
+r	ร	0
+@r	ฤ	0
+l	ล	0
+@l	ฦ	0
+w	ว	0
+S2	ศ	0
+S1	ษ	0
+s	ส	0
+h	ห	0
+L	ฬ	0
+x	อ	0
+H	ฮ	0
+a	ะ	0
+a1	ะ	0
+a2	ั	0
+A	า	0
+A1	า	0
+A2	ํำ	0
+am	ํำ	0
+i	ิ	0
+I	ี	0
+v	ึ	0
+V	ื	0
+u	ุ	0
+U	ู	0
+e	เ	0
+E	แ	0
+o	o	0
+ai	ไ	0
+AI	ใ	0
+Ai	ใ	0
+@R	ฤๅ	0
+@L	ฦๅ	0
+@1	่	0
+@2	้	0
+@3	๊	0
+@4	๋	0
+@5	็	0
+@6	์	0
+@7	๎	0
+@8	ํ	0
+@9	ฺ	0
+@0	ฯ	0
+0	๐	0
+1	๑	0
+2	๒	0
+3	๓	0
+4	๔	0
+5	๕	0
+6	๖	0
+7	๗	0
+8	๘	0
+9	๙	0
+END_TABLE

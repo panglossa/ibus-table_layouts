@@ -1,0 +1,401 @@
+### File header must not be modified
+### This file must be encoded in UTF-8.
+###
+### For information about X-SAMPA see also
+###     http://www.phon.ucl.ac.uk/home/sampa/home.htm
+###     http://www.phon.ucl.ac.uk/home/sampa/x-sampa.htm
+###     http://www.phon.ucl.ac.uk/home/sampa/ipasam-x.pdf
+###
+### This table was mostly created by converting ipa-x-sampa.scm
+### from the uim project. See http://uim.freedesktop.org/ 
+###
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = 89fe15f7-95a4-4b7c-8933-1624802a7f3d
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20200812134439
+
+ICON = languages.png
+
+### The symbol to be displayed in IM switchers
+SYMBOL = ΓL
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = ΓL
+
+### The default name of this table
+NAME = LANGUAGES
+
+### The local names of this table 
+###NAME.de_DE = 
+
+### Supported languages of this table
+LANGUAGES = other
+
+### The author of this table
+AUTHOR = QVASIMODO <sld@oderalon.net>
+
+### Layout
+### This table can be used with any layout capable of typing ASCII.
+### Therefore, we should not require a special layout like “us”.
+LAYOUT = default
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = TRUE
+
+### Single wildcard char (leave empty if you don’t want a wildcard character).
+SINGLE_WILDCARD_CHAR =
+
+### Multi wildcard char (leave empty if you don’t want a wildcard character).
+MULTI_WILDCARD_CHAR =
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = TRUE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = TRUE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = FALSE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = TRUE
+
+### Enable full width punctuation property
+USE_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Enable full width letter property
+USE_FULL_WIDTH_LETTER = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 7
+
+### Valid input chars.
+VALID_INPUT_CHARS == +!\%&'-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+
+### The key strokes to split inputted string.
+###SPLIT_KEYS = quoteright
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = space,Return
+
+### The key strokes to forward the inputted string to client.
+### FORWARD_KEYS = Return
+
+### The key strokes to select candidiate phrases.
+SELECT_KEYS = F1,F2,F3,F4,F5,F6,F7,F8,F9
+ 
+### The default orientation of the candidate list
+### FALSE means the candidate list is horizontal, TRUE means it is vertical
+ORIENTATION=FALSE
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = Page_Up
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = Page_Down
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+en	English	0
+eng	English	0
+ang	Ænglisc	0
+ceb	Sinugboanong Binisaya	0
+sv	svenska	0
+Sv	Svenska	0
+de	Deutsch	0
+fr	français	0
+Fr	Français	0
+fra	français	0
+Fra	Français	0
+nl	nederlands	0
+Nl	Nederlands	0
+nld	nederlands	0
+Nld	Nederlands	0
+ru	русский	0
+rus	русский	0
+Ru	Русский	0
+it	italiano	0
+It	Italiano	0
+ita	italiano	0
+Ita	Italiano	0
+es	español	0
+Es	Español	0
+esp	español	0
+Esp	Español	0
+spa	español	0
+Spa	Español	0
+pl	polski	0
+Pl	Polski	0
+pol	polski	0
+Pol	Polski	0
+war	winaray	0
+War	Winaray	0
+vi	tiếng Việt	0
+Vi	Tiếng Việt	0
+vie	tiếng Việt	0
+Vie	Tiếng Việt	0
+ja	日本語	0
+jap	日本語	0
+zh	中文	0
+zho	中文	0
+ar	العربية	0
+arb	العربية	0
+pt	português	0
+Pt	Português	0
+por	português	0
+Por	Português	0
+uk	Українська	0
+ukr	Українська	0
+fa	فارسی	0
+far	فارسی	0
+ca	català	0
+Ca	Català	0
+cat	català	0
+Cat	Català	0
+sr	Српски	0
+sr	srpski	0
+Sr	Srpski	0
+no	norsk	0
+No	Norsk	0
+no	Norsk (Bokmål)	0
+no	Bokmål	0
+nor	norsk	0
+Nor	Norsk	0
+nor	Norsk (Bokmål)	0
+nor	Bokmål	0
+id	Bahasa Indonesia	0
+ind	Bahasa Indonesia	0
+ko	한국어	0
+kor	한국어	0
+fi	Suomi	0
+suo	Suomi	0
+hu	Magyar	0
+hun	Magyar	0
+sh	Srpskohrvatski	0
+sh	Српскохрватски	0
+cs	čeština	0
+Cs	Čeština	0
+ces	čeština	0
+Ces	Čeština	0
+ro	Română	0
+eu	Euskara	0
+tr	Türkçe	0
+tur	Türkçe	0
+ms	Bahasa Melayu	0
+mel	Bahasa Melayu	0
+mal	Bahasa Melayu	0
+eo	Esperanto	0
+epo	Esperanto	0
+hy	Հայերեն	0
+zh-mi	Bân-lâm-gú	0
+min-n	Bân-lâm-gú	0
+bg	Български	0
+bul	Български	0
+he	עברית	0
+hb	עברית	0
+heb	עברית	0
+da	Dansk	0
+dan	Dansk	0
+ce	Нохчийн	0
+sk	Slovenčina	0
+kk	Қазақша	0
+min	Minangkabau	0
+hr	Hrvatski	0
+et	Eesti	0
+est	Eesti	0
+lt	lietuvių	0
+Lt	Lietuvių	0
+lit	lietuvių	0
+Lit	Lietuvių	0
+be	Беларуская	0
+azb	تۆرکجه	0
+el	Ελληνικά	0
+ell	Ελληνικά	0
+sl	Slovenščina	0
+gl	Galego	0
+az	Azərbaycanca	0
+s-en	Simple English	0
+en-s	Simple English	0
+ur	اردو	0
+urd	اردو	0
+nn	Nynorsk	0
+nor	Nynorsk	0
+hi	हिन्दी	0
+hin	हिन्दी	0
+th	ไทย	0
+tha	ไทย	0
+ka	ქართული	0
+kar	ქართული	0
+uz	O‘zbek	0
+arz	مصرى	0
+la	Latina	0
+lat	Latina	0
+ta	தமிழ்	0
+tam	தமிழ்	0
+vo	Volapük	0
+vol	Volapük	0
+cy	Cymraeg	0
+cym	Cymraeg	0
+mk	Македонски	0
+tg	Тоҷикӣ	0
+lv	Latviešu	0
+ast	Asturianu	0
+mg	Malagasy	0
+tt	Tatarça	0
+tt	Татарча	0
+af	Afrikaans	0
+afr	Afrikaans	0
+oc	Occitan	0
+bs	Bosanski	0
+bn	বাংলা	0
+ky	Кыргызча	0
+sq	Shqip	0
+sqi	Shqip	0
+zh-yue	粵語	0
+tl	Tagalog	0
+tag	Tagalog	0
+new	नेपाल भाषा	0
+te	తెలుగు	0
+tel	తెలుగు	0
+br	Brezhoneg	0
+ml	മലയാളം	0
+pms	Piemontèis	0
+nds	Plattdüütsch	0
+su	Basa Sunda	0
+ht	Krèyolayisyen	0
+lb	Lëtzebuergesch	0
+jv	Basa Jawa	0
+sco	Scots	0
+mr	मराठी	0
+sw	Kiswahili	0
+swa	Kiswahili	0
+pnb	شاہ مکھی پنجابی	0
+ga	Gaeilge	0
+gae	Gaeilge	0
+szl	Ślůnski	0
+ba	Башҡорт	0
+is	Íslenska	0
+isl	Íslenska	0
+my	မြန်မာဘာသာ	0
+fy	Frysk	0
+cv	Чăваш	0
+lmo	Lumbaart	0
+an	Aragonés	0
+ne	नेपाली	0
+pa	ਪੰਜਾਬੀ	0
+yo	Yorùbá	0
+yor	Yorùbá	0
+yo	Èdè Yorùbá	0
+yor	Èdè Yorùbá	0
+bar	Boarisch	0
+io	Ido	0
+gu	ગુજરાતી	0
+wuu	吴语	0
+als	Alemannisch	0
+ku	Kurdî	0
+ku	كوردی	0
+scn	Sicilianu	0
+kn	ಕನ್ನಡ	0
+ckb	Soranî	0
+ckb	کوردی	0
+bpy	ইমারঠার	0
+bpy	বিষ্ণুপ্রিয়া মণিপুরী	0
+ia	Interlingua	0
+qu	Runa Simi	0
+que	Runa Simi	0
+mn	Монгол	0
+mon	Монгол	0
+vec	Vèneto	0
+bat-smg	Žemaitėška	0
+wa	Walon	0
+si	සිංහල	0
+or	ଓଡ଼ିଆ	0
+cdo	Mìng-dĕ̤ng-ngṳ̄	0
+gd	Gàidhlig	0
+yi	ייִדיש	0
+yid	ייִדיש	0
+am	አማርኛ	0
+amh	አማርኛ	0
+nap	Nnapulitano	0
+ilo	Ilokano	0
+bug	BasaUgi	0
+xmf	მარგალური	0
+xmf	Margaluri	0
+hsb	Hornjoserbsce	0
+mai	मैथिली	0
+map-bms	BasaBanyumasan	0
+fo	Føroyskt	0
+diq	Zazaki	0
+mzn	مَزِروني	0
+sd	سندھی	0
+sd	सिन्ध	0
+sd	سنڌي	0
+li	Limburgs	0
+eml	Emiliàn e rumagnòl	0
+sah	Сахатыла	0
+sah	SaxaTyla	0
+nv	Diné bizaad	0
+nav	Diné bizaad	0
+os	Иронау	0
+ps	پښتو	0
+ace	Bahsa Acèh	0
+mrj	Кырык Мары	0
+mrj	Kyryk Mary	0
+frr	Nordfriisk	0
+zh-cl	古文	0
+zh-cl	文言文	0
+mhr	ОлыкМарий	0
+mhr	OlykMarij	0
+akk	𒀝𒅗𒁺𒌑	0
+akk	𒌵𒆠	0
+akk	akkadû	0
+akk	ak-ka-du-u2	0
+aeg	𓂋𓏺𓈖𓆎𓅓𓏏𓊖	0
+eg	𓂋𓏺𓈖𓆎𓅓𓏏𓊖	0
+egy	𓂋𓏺𓈖𓆎𓅓𓏏𓊖	0
+haw	ʻŌlelo Hawaiʻi	0
+grk	Ἑλληνική	0
+cop	ⲧⲙⲛ̄ⲧⲣⲙ̄ⲛ̄ⲕⲏⲙⲉ	0
+cop	ϯⲙⲉⲧⲣⲉⲙⲛ̀ⲭⲏⲙⲓ	0
+skt	संस्कृतम्	0
+skt	संस्कृत	0
+sa	संस्कृतम्	0
+tel	తెలుగు	0
+th	ภาษาไทย	0
+tha	ภาษาไทย	0
+fao	Føroyskt	0
+sum	𒅴𒂠	0
+sux	𒅴𒂠	0
+sum	EME.G̃IR15	0
+sux	EME.G̃IR15	0
+tib	བོད་སྐད་	0
+tib	ལྷ་སའི་སྐད་	0
+END_TABLE

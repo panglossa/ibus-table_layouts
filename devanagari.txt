@@ -1,0 +1,331 @@
+### File header must not be modified
+### This file must be encoded in UTF-8.
+###
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = 952ea7a6-4e1a-4924-9fd0-4d2a8493cdb8
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20200415121739
+
+ICON = devanagari.png
+
+### The symbol to be displayed in IM switchers
+SYMBOL = अ
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = अ
+
+### The default name of this table
+NAME = Panglossa Devanagari Keyboard
+
+### The local names of this table 
+###NAME.de_DE = 
+
+### Supported languages of this table
+LANGUAGES = hin,san,eng
+
+### The author of this table
+AUTHOR = oderalon <sld@oderalon.net>
+
+### Layout
+### This table can be used with any layout capable of typing ASCII.
+### Therefore, we should not require a special layout like “us”.
+LAYOUT = default
+### br_nodeadkeys
+### VARIANT = nodeadkeys
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = TRUE
+
+### Single wildcard char (leave empty if you don’t want a wildcard character).
+SINGLE_WILDCARD_CHAR =
+
+### Multi wildcard char (leave empty if you don’t want a wildcard character).
+MULTI_WILDCARD_CHAR =
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = TRUE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = TRUE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = FALSE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = TRUE
+
+### Enable full width punctuation property
+USE_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Enable full width letter property
+USE_FULL_WIDTH_LETTER = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The key strokes to split inputted string.
+###SPLIT_KEYS = quoteright
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = space,Return
+
+### The key strokes to forward the inputted string to client.
+### FORWARD_KEYS = Return
+
+### The key strokes to select candidiate phrases.
+SELECT_KEYS = F1,F2,F3,F4,F5,F6,F7,F8,F9
+
+### The default orientation of the candidate list
+### FALSE means the candidate list is horizontal, TRUE means it is vertical
+ORIENTATION=FALSE
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = Page_Up
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = Page_Down
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 6
+
+### Valid input chars.
+VALID_INPUT_CHARS == '"1!¹2@²3#³4$£5%¢6¨¬7&8*9(0)-_=+§qQwWeE€rRtTyYuUiIoOpP'`[{ªaAsSdDfFgGhHjJkKlLçÇ~^]}º\|zZxXcCvVbBnNmM,<.>;:/?°
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+'	ऽ	0
+_	_	0
+-	-	0
+,	,	0
+;	;	0
+:	:	0
+!	!	0
+?	?	0
+.	।	0
+"	"	0
+(	(	0
+)	)	0
+[	[	0
+]	]	0
+{	{	0
+}	}	0
+§	§	0
+@	@	0
+*	*	0
+/	/	0
+\	्	0
+#	#	0
+%	%	0
+°	°	0
++	+	0
+<	<	0
+=	=	0
+>	॥	0
+¬	¬	0
+|	|	0
+~	~	0
+¢	¢	0
+$	$	0
+£	£	0
+0	०	0
+1	१	0
+¹	¹	0
+2	२	0
+²	²	0
+3	३	0
+³	³	0
+4	४	0
+5	५	0
+6	६	0
+7	७	0
+8	८	0
+9	९	0
+a		0
+A	ा	0
+ª	ª	0
+b	ब	0
+B	भ	0
+c	च	0
+C	छ	0
+ç	श	0
+Ç	Ç	0
+d	द	0
+D	ध	0
+e	े	0
+E	ै	0
+f	f	0
+F	F	0
+g	ग	0
+G	घ	0
+h	ह	0
+H	ः	0
+i	ि	0
+I	ी	0
+j	ज	0
+J	झ	0
+k	क	0
+K	ख	0
+l	ल	0
+L	ळ	0
+L	ॢ	0
+L	ॣ	0
+m	म	0
+M	ं	0
+n	न	0
+N	ण	0
+N	ञ	0
+N	ङ	0
+o	ो	0
+O	ौ	0
+º	º	0
+p	प	0
+P	फ	0
+q	q	0
+Q	Q	0
+r	र	0
+R	ृ	0
+R	ॄ	0
+s	स	0
+S	ष	0
+t	त	0
+T	थ	0
+u	ु	0
+U	ू	0
+v	व	0
+V	V	0
+w	ट	0
+W	ठ	0
+x	ड	0
+X	ढ	0
+y	य	0
+Y	Y	0
+z	z	0
+Z	Z	0
+@a	अ	0
+@A	आ	0
+@e	ए	0
+@E	ऐ	0
+@i	इ	0
+@I	ई	0
+@o	ओ	0
+@O	औ	0
+@u	उ	0
+@U	ऊ	0
+@r	ऋ	0
+@R	ॠ	0
+@l	ऌ	0
+@L	ॡ	0
+@Om	ॐ	0
+@OM	ॐ	0
+@kS	क्ष	0
+@kk	क्क	0
+@kt	क्त	0
+@kn	क्न	0
+@kr	क्र	0
+@kv	क्व	0
+@khn	ख्न	0
+@gn	ग्न	0
+@gr	ग्र	0
+@ghn	घ्न	0
+@ghr	घ्र	0
+@ngm	ङ्म	0
+@Nm	ङ्म	0
+@ngr	ङ्र	0
+@Nr	ङ्र	0
+@cc	च्च	0
+@cr	च्र	0
+@Cr	छ्र	0
+@jN	ज्ञ	0
+@jn	ज्ञ	0
+@jr	ज्र	0
+@Jr	झ्र	0
+@nc	ञ्च	0
+@Nc	ञ्च	0
+@Nr	ञ्र	0
+@ww	ट्ट	0
+@wW	ट्ठ	0
+@wr	ट्र	0
+@WW	ठ्ठ	0
+@wy	ट्य	0
+@Wy	ठ्य	0
+@Wr	ठ्र	0
+@xx	ड्ड	0
+@xX	ड्ढ	0
+@xy	ड्य	0
+@xr	ड्र	0
+@XX	ढ्ढ	0
+@Xy	ढ्य	0
+@Xr	ढ्र	0
+@Nr	ण्र	0
+@tt	त्त	0
+@tr	त्र	0
+@Tr	थ्र	0
+@dg	द्ग	0
+@dG	द्घ	0
+@dd	द्द	0
+@dD	द्ध	0
+@dn	द्न	0
+@db	द्ब	0
+@dB	द्भ	0
+@dm	द्म	0
+@dy	द्य	0
+@dr	द्र	0
+@dv	द्व	0
+@Dn	ध्न	0
+@Dr	ध्र	0
+@nn	न्न	0
+@nr	न्र	0
+@pt	प्त	0
+@pn	प्न	0
+@pr	प्र	0
+@Pr	फ्र	0
+@bn	ब्न	0
+@br	ब्र	0
+@Br	भ्र	0
+@mn	म्न	0
+@mr	म्र	0
+@vr	व्र	0
+@çc	श्च	0
+@çn	श्न	0
+@çr	श्र	0
+@çl	श्ल	0
+@çv	श्व	0
+@Sw	ष्ट	0
+@SW	ष्ठ	0
+@Sr	ष्र	0
+@sr	स्र	0
+@hN	ह्ण	0
+@hm	ह्म	0
+@hy	ह्य	0
+@hr	ह्र	0
+@try	त्र्य	0
+@ddy	द्द्य	0
+@ddr	द्द्र	0
+	
+ 
+END_TABLE

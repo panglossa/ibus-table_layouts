@@ -1,0 +1,219 @@
+### File header must not be modified
+### This file must be encoded in UTF-8.
+###
+### For information about X-SAMPA see also
+###     http://www.phon.ucl.ac.uk/home/sampa/home.htm
+###     http://www.phon.ucl.ac.uk/home/sampa/x-sampa.htm
+###     http://www.phon.ucl.ac.uk/home/sampa/ipasam-x.pdf
+###
+### This table was mostly created by converting ipa-x-sampa.scm
+### from the uim project. See http://uim.freedesktop.org/ 
+###
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### A unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = fad2de71-5662-473b-abf3-321b35d9da67
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20201122011305
+
+ICON = armenian.png
+
+### The symbol to be displayed in IM switchers
+SYMBOL = Հ
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = Հայ
+
+### The default name of this table
+NAME = Armenian
+
+### The local names of this table 
+###NAME.de_DE = 
+
+### Supported languages of this table
+LANGUAGES = hy
+
+### The author of this table
+AUTHOR = oderalon <sld@oderalon.net>
+
+### Layout
+### This table can be used with any layout capable of typing ASCII.
+### Therefore, we should not require a special layout like “us”.
+LAYOUT = default
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = TRUE
+
+### Single wildcard char (leave empty if you don’t want a wildcard character).
+SINGLE_WILDCARD_CHAR =
+
+### Multi wildcard char (leave empty if you don’t want a wildcard character).
+MULTI_WILDCARD_CHAR =
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = TRUE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = TRUE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = FALSE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = TRUE
+
+### Enable full width punctuation property
+USE_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Enable full width letter property
+USE_FULL_WIDTH_LETTER = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 5
+
+### Valid input chars.
+VALID_INPUT_CHARS == +!\%&'-./0123456789:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]#^_`abcçdefghijklmnopqrstuvwxyz{|}~"
+
+### The key strokes to split inputted string.
+###SPLIT_KEYS = quoteright
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = space,Return
+
+### The key strokes to forward the inputted string to client.
+### FORWARD_KEYS = Return
+
+### The key strokes to select candidiate phrases.
+SELECT_KEYS = F1,F2,F3,F4,F5,F6,F7,F8,F9
+
+### The default orientation of the candidate list
+### FALSE means the candidate list is horizontal, TRUE means it is vertical
+ORIENTATION=FALSE
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = Page_Up
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = Page_Down
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+A	Ա	0
+B	Բ	0
+G	Գ	0
+D	Դ	0
+E	Ե	0
+Z	Զ	0
+@E	Է	0
+@@	Ը	0
+@T	Թ	0
+@Z	Ժ	0
+I	Ի	0
+L	Լ	0
+X	Խ	0
+@C	Ծ	0
+K	Կ	0
+H	Հ	0
+@Z	Ձ	0
+@R	Ղ	0
+@C	Ճ	0
+M	Մ	0
+J	Յ	0
+N	Ն	0
+@S	Շ	0
+O	Ո	0
+@C	Չ	0
+P	Պ	0
+@D	Ջ	0
+@R	Ռ	0
+S	Ս	0
+V	Վ	0
+T	Տ	0
+R	Ր	0
+C	Ց	0
+W	Ւ	0
+@P	Փ	0
+@K	Ք	0
+@O	Օ	0
+F	Ֆ	0
+U	ՈՒ	0
+@EW	ԵՒ	0
+a	ա	0
+b	բ	0
+g	գ	0
+d	դ	0
+e	ե	0
+z	զ	0
+@e	է	0
+@@	ը	0
+@e	ը	0
+@t	թ	0
+@z	ժ	0
+i	ի	0
+l	լ	0
+x	խ	0
+@c	ծ	0
+k	կ	0
+h	հ	0
+@z	ձ	0
+@r	ղ	0
+@c	ճ	0
+m	մ	0
+j	յ	0
+n	ն	0
+@s	շ	0
+o	ո	0
+@c	չ	0
+p	պ	0
+@d	ջ	0
+@r	ռ	0
+s	ս	0
+v	վ	0
+t	տ	0
+r	ր	0
+c	ց	0
+w	ւ	0
+@p	փ	0
+@k	ք	0
+@o	օ	0
+f	ֆ	0
+u	ու	0
+@ew	և	0
+?	?	0
+,	,	0
+.	.	0
+!	!	0
+-	-	0
+_	_	0
+=	=	0
++	+	0
+:	:	0
+;	;	0
+END_TABLE

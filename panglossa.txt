@@ -1,0 +1,725 @@
+### File header must not be modified
+### This file must be encoded in UTF-8.
+###
+###
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = 52a7af1a-823d-4cf1-bc94-ff0e7f07f5cf
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20210216213755
+
+ICON = panglossa.png
+
+### The symbol to be displayed in IM switchers
+SYMBOL = PAN
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = PAN
+
+### The default name of this table
+NAME = Panglossa Universal Keyboard
+
+### The local names of this table 
+###NAME.de_DE = 
+
+### Supported languages of this table
+LANGUAGES = eng
+
+### The author of this table
+AUTHOR = oderalon <sld@oderalon.net>
+
+### Layout
+### This table can be used with any layout capable of typing ASCII.
+### Therefore, we should not require a special layout like “us”.
+LAYOUT = br_nodeadkeys
+### VARIANT = nodeadkeys
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = TRUE
+
+### Single wildcard char (leave empty if you don’t want a wildcard character).
+SINGLE_WILDCARD_CHAR =
+
+### Multi wildcard char (leave empty if you don’t want a wildcard character).
+MULTI_WILDCARD_CHAR =
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = TRUE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = TRUE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = FALSE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = TRUE
+
+### Enable full width punctuation property
+USE_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Enable full width letter property
+USE_FULL_WIDTH_LETTER = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The key strokes to split inputted string.
+###SPLIT_KEYS = quoteright
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = space,Return
+
+### The key strokes to forward the inputted string to client.
+### FORWARD_KEYS = Return
+
+### The key strokes to select candidiate phrases.
+SELECT_KEYS = F1,F2,F3,F4,F5,F6,F7,F8,F9
+
+### The default orientation of the candidate list
+### FALSE means the candidate list is horizontal, TRUE means it is vertical
+ORIENTATION=FALSE
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = Page_Up
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = Page_Down
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 6
+
+### Valid input chars.
+VALID_INPUT_CHARS == '"1!¹2@²3#³4$£5%¢6¨¬7&8*9(0)-_=+§qQwWeE€rRtTyYuUiIoOpP'`[{ªaAsSdDfFgGhHjJkKlLçÇ~^]}º\|zZxXcCvVbBnNmM,<.>;:/?°
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+1	1	0
+2	2	0
+3	3	0
+4	4	0
+5	5	0
+6	6	0
+7	7	0
+8	8	0
+9	9	0
+0	0	0
+-	-	0
+=	=	0
+q	q	0
+w	w	0
+e	e	0
+r	r	0
+t	t	0
+y	y	0
+u	u	0
+i	i	0
+o	o	0
+p	p	0
+[	[	0
+a	a	0
+s	s	0
+d	d	0
+f	f	0
+g	g	0
+h	h	0
+j	j	0
+k	k	0
+l	l	0
+ç	ç	0
+~	~	0
+]	]	0
+\	\	0
+z	z	0
+x	x	0
+c	c	0
+v	v	0
+b	b	0
+n	n	0
+m	m	0
+,	,	0
+.	.	0
+;	;	0
+/	/	0
+"	"	0
+!	!	0
+@	@	0
+#	#	0
+$	$	0
+%	%	0
+*	*	0
+(	(	0
+)	)	0
+_	_	0
++	+	0
+Q	Q	0
+W	W	0
+E	E	0
+R	R	0
+T	T	0
+Y	Y	0
+U	U	0
+I	I	0
+O	O	0
+P	P	0
+{	{	0
+A	A	0
+S	S	0
+D	D	0
+F	F	0
+G	G	0
+H	H	0
+J	J	0
+K	K	0
+L	L	0
+Ç	Ç	0
+}	}	0
+|	|	0
+Z	Z	0
+X	X	0
+C	C	0
+V	V	0
+B	B	0
+N	N	0
+M	M	0
+<	<	0
+>	>	0
+:	:	0
+?	?	0
+¹	¹	0
+²	²	0
+³	³	0
+£	£	0
+¢	¢	0
+¬	¬	0
+§	§	0
+ª	ª	0
+º	º	0
+°	°	0
+!	¡	0
+?	¿	0
+A	À	0
+A	Á	0
+A	Â	0
+A	Ã	0
+A	Ä	0
+A	Å	0
+A	Æ	0
+E	È	0
+E	É	0
+E	Ê	0
+E	Ë	0
+I	Ì	0
+I	Í	0
+I	Î	0
+I	Ï	0
+D	Ð	0
+O	Ò	0
+O	Ó	0
+O	Ô	0
+O	Õ	0
+O	Ö	0
+x	× 	0
+O	Ø	0
+U	Ù	0
+U	Ú	0
+U	Û	0
+U	Ü	0
+Y	Ý	0
+TH	Þ	0
+ss	ß	0
+a	à	0
+a	á	0
+a	â	0
+a	ã	0
+a	ä	0
+a	å	0
+a	æ	0
+e	è	0
+e	é	0
+e	ê	0
+e	ë	0
+i	ì	0
+i	í	0
+i	î	0
+i	ï	0
+d	ð	0
+o	ò	0
+o	ó	0
+o	ô	0
+o	õ	0
+o	ö	0
+/	÷	0
+o	ø	0
+u	ù	0
+u	ú	0
+u	û	0
+u	ü	0
+y	ý	0
+th	þ	0
+y	ÿ 	0
+A	Ǎ	0
+a	ǎ	0
+I	Ǐ	0
+i	ǐ	0
+O	Ǒ	0
+o	ǒ	0
+U	Ǔ	0
+u	ǔ	0
+U	Ǖ	0
+u	ǖ	0
+U	Ǘ	0
+u	ǘ	0
+U	Ǚ	0
+u	ǚ	0
+U	Ǜ	0
+u	ǜ	0
+e	ǝ	0
+@e	ǝ	0
+A	Ǟ	0
+a	ǟ	0
+A	Ǡ	0
+a	ǡ	0
+A	Ǣ	0
+a	ǣ	0
+G	Ǥ	0
+g	ǥ	0
+G	Ǧ	0
+g	ǧ	0
+K	Ǩ	0
+k	ǩ	0
+O	Ǫ	0
+o	ǫ	0
+O	Ǭ	0
+o	ǭ	0
+Z	Ǯ	0
+z	ǯ	0
+j	ǰ	0
+DZ	Ǳ	0
+Dz	ǲ	0
+dz	ǳ	0
+G	Ǵ	0
+g	ǵ	0
+g	ğ	0
+G	Ğ	0
+H	Ƕ	0
+W	Ƿ	0
+N	Ǹ	0
+n	ǹ	0
+A	Ǻ	0
+a	ǻ	0
+A	Ǽ	0
+a	ǽ	0
+O	Ǿ	0
+o	ǿ	0
+A	Ȁ	0
+a	ȁ	0
+A	Ȃ	0
+a	ȃ	0
+E	Ȅ	0
+e	ȅ	0
+E	Ȇ	0
+e	ȇ	0
+I	Ȉ	0
+i	ȉ	0
+I	Ȋ	0
+i	ȋ	0
+i	ı	0
+I	İ	0
+O	Ȍ	0
+o	ȍ	0
+O	Ȏ	0
+o	ȏ	0
+R	Ȑ	0
+r	ȑ	0
+R	Ȓ	0
+r	ȓ	0
+U	Ȕ	0
+u	ȕ	0
+U	Ȗ	0
+u	ȗ	0
+S	Ș	0
+s	ș	0
+s	ş	0
+S	Ş	0
+T	Ț	0
+t	ț	0
+Y	Ȝ	0
+y	ȝ	0
+H	Ȟ	0
+h	ȟ	0
+N	Ƞ	0
+d	ȡ	0
+OU	Ȣ	0
+ou	ȣ	0
+Z	Ȥ	0
+z	ȥ	0
+A	Ȧ	0
+a	ȧ	0
+E	Ȩ	0
+e	ȩ	0
+O	Ȫ	0
+o	ȫ	0
+O	Ȭ	0
+o	ȭ	0
+O	Ȯ	0
+o	ȯ	0
+O	Ȱ	0
+o	ȱ	0
+Y	Ȳ	0
+y	ȳ	0
+i	ɨ	0
+u	ʉ	0
+u	ɯ	0
+i	ɪ	0
+y	ʏ	0
+u	ʊ	0
+e	ɘ	0
+o	ɵ	0
+e	ɵ	0
+u	ɤ	0
+o	ø̞	0
+e	ə	0
+o	o̞	0
+e	ɛ	0
+o	œ	0
+e	œ	0
+e	ɜ	0
+e	ɞ	0
+o	ɞ	0
+u	ʌ	0
+o	ɔ	0
+a	ɐ	0
+o	ɶ	0
+e	ɶ	0
+a	ɑ	0
+a	ɒ	0
+m	m̥	0
+m	ɱ	0
+n	n̼	0
+n	n̥	0
+n	ɳ̊	0
+n	ɳ	0
+n	ɲ̊	0
+n	ɲ	0
+n	ŋ̊	0
+n	ŋ	0
+n	ɴ	0
+p	p̪	0
+b	b̪	0
+t	t̼	0
+d	d̼	0
+t	ʈ	0
+d	ɖ	0
+j	ɟ	0
+g	ɢ	0
+'	ʡ	0
+'	ʔ	0
+t	t̠ʃ	0
+s	t̠ʃ	0
+d	d̠ʒ	0
+z	d̠ʒ	0
+t	ʈʂ	0
+s	ʈʂ	0
+d	ɖʐ	0
+z	ɖʐ	0
+t	tɕ	0
+c	tɕ	0
+d	dʑ	0
+z	dʑ	0
+p	pɸ	0
+f	pɸ	0
+b	bβ	0
+v	bβ	0
+p	p̪f	0
+f	p̪f	0
+b	b̪v	0
+v	b̪v	0
+t	t̪θ	0
+th	t̪θ	0
+d	d̪ð	0
+dh	d̪ð	0
+t	tɹ̝̊	0
+r	tɹ̝̊	0
+d	dɹ̝	0
+r	dɹ̝	0
+t	t̠ɹ̠̊˔	0
+r	t̠ɹ̠̊˔	0
+d	d̠ɹ̠˔	0
+r	d̠ɹ̠˔	0
+j	ɟʝ	0
+g	ɡɣ	0
+q	qχ	0
+x	qχ	0
+g	ɢʁ	0
+r	ɢʁ	0
+'	ʡʢ	0
+'	ʔh	0
+h	ʔh	0
+s	ʃ	0
+z	ʒ	0
+s	ʂ	0
+z	ʐ	0
+c	ɕ	0
+z	ʑ	0
+f	ɸ	0
+v	β	0
+t	θ̼ 	0
+th	θ̼ 	0
+d	ð̼	0
+dh	ð̼	0
+t	θ	0
+th	θ	0
+d	ð	0
+dh	ð	0
+t	θ̠ 	0
+th	θ̠ 	0
+d	ð̠	0
+dh	ð̠	0
+r	ɹ̠̊˔	0
+r	ɹ̠˔	0
+r	ɻ˔	0
+j	ʝ	0
+g	ɣ	0
+x	χ	0
+r	ʁ	0
+h	ħ	0
+'	ʕ	0
+h	ɦ	0
+v	ʋ̥	0
+v	ʋ	0
+r	ɹ̥	0
+r	ɹ	0
+r	ɻ̊	0
+r	ɻ	0
+j	j̊	0
+w	ɰ̊	0
+w	ɰ	0
+'	ʔ̞	0
+v	ⱱ̟ 	0
+v	ⱱ	0
+r	ɾ̼	0
+r	ɾ̥	0
+r	ɾ	0
+r	ɽ̊	0
+r	ɽ	0
+g	ɢ̆	0
+'	ʡ̆	0
+b	ʙ̥	0
+b	ʙ	0
+r	r̥	0
+r	ɽ̊r̥	0
+r	ɽr	0
+r	ʀ̥	0
+r	ʀ	0
+h	ʜ	0
+'	ʢ	0
+l	tɬ	0
+t	tɬ	0
+l	dɮ	0
+d	dɮ	0
+l	ʈɭ̊˔	0
+t	ʈɭ̊˔	0
+l	cʎ̝̊	0
+c	cʎ̝̊	0
+l	kʟ̝̊	0
+k	kʟ̝̊	0
+l	ɡʟ̝	0
+g	ɡʟ̝	0
+l	ɬ	0
+l	ɮ	0
+l	ɭ̊˔	0
+l	ɭ˔	0
+l	ʎ̝̊	0
+l	ʎ̝	0
+l	ʟ̝̊	0
+l	ʟ̝	0
+l	l̥	0
+l	ɭ̊	0
+l	ɭ	0
+l	ʎ̥	0
+l	ʎ	0
+l	ʟ̥	0
+l	ʟ	0
+l	ʟ̠	0
+l	ɺ	0
+l	ɭ̆	0
+l	ʎ̆	0
+l	ʟ̆	0
+p	pʼ	0
+t	tʼ	0
+t	ʈʼ	0
+c	cʼ	0
+k	kʼ	0
+q	qʼ	0
+'	ʡʼ	0
+p'	pʼ	0
+t'	tʼ	0
+t'	ʈʼ	0
+c'	cʼ	0
+k'	kʼ	0
+q'	qʼ	0
+''	ʡʼ	0
+t	t̪θʼ	0
+th	t̪θʼ	0
+t	tsʼ	0
+ts	tsʼ	0
+t	t̠ʃʼ	0
+ts	t̠ʃʼ	0
+t	ʈʂʼ	0
+ts	ʈʂʼ	0
+k	kxʼ	0
+kx	kxʼ	0
+q	qχʼ	0
+qx	qχʼ	0
+f	ɸʼ	0
+f	fʼ	0
+t	θʼ	0
+s	sʼ	0
+s	ʃʼ	0
+s	ʂʼ	0
+c	ɕʼ	0
+x	xʼ	0
+x	χʼ	0
+t	tɬʼ	0
+l	tɬʼ	0
+c	cʎ̝̊ʼ	0
+l	cʎ̝̊ʼ	0
+k	kʟ̝̊ʼ	0
+l	kʟ̝̊ʼ	0
+l	ɬʼ	0
+c	ʘ	0
+c	ǀ	0
+c	ǃ	0
+c	ǂ	0
+b	ɓ	0
+d	ɗ	0
+d	ᶑ	0
+j	ʄ	0
+g	ɠ	0
+g	ʛ	0
+b	ɓ̥	0
+d	ɗ̥	0
+d	ᶑ̊ 	0
+j	ʄ̊	0
+g	ɠ̊	0
+g	ʛ̥	0
+w	ɥ	0
+w	ɥ̊	0
+w	ʍ	0
+l	ɫ	0
+j	j̃	0
+w	w̃	0
+h	h̃	0
+n	n͡m	0
+m	n͡m	0
+nm	n͡m	0
+n	ŋ͡m	0
+m	ŋ͡m	0
+nm	ŋ͡m	0
+ngm	ŋ͡m	0
+t	t͡p	0
+p	t͡p	0
+tp	t͡p	0
+d	d͡b	0
+b	d͡b	0
+db	d͡b	0
+k	k͡p	0
+p	k͡p	0
+kp	k͡p	0
+g	ɡ͡b	0
+b	ɡ͡b	0
+gb	ɡ͡b	0
+q	q͡ʡ	0
+'	q͡ʡ	0
+q'	q͡ʡ	0
+h	ɧ	0
+'	ˈ	0
+'	ˌ	0
+:	ː	0
+:	ˑ	0
+1	˥	0
+2	˦	0
+3	˧	0
+4	˨	0
+5	˩	0
+6	˩˥	0
+7	˥˩	0
+8	˧˥	0
+9	˩˧	0
+0	˥˧	0
+0	˧˩	0
+0	˧˦˨	0
+0	˧˨˦	0
+_	̄	0
+u	ū	0
+a	ā	0
+e	ē	0
+i	ī	0
+o	ō	0
+y	ȳ	0
+.	̣	0
+.	̇	0
+e	ē	0
+s	š	0
+c	č	0
+g	ǧ	0
+n	ň	0
+r	ř	0
+t	ť	0
+u	ǔ	0
+z	ž	0
+S	Š	0
+C	Č	0
+G	Ǧ	0
+N	Ň	0
+R	Ř	0
+T	Ť	0
+U	Ǔ	0
+Z	Ž	0
+a	ā	0
+e	ē	0
+i	ī	0
+o	ō	0
+u	ū	0
+A	Ā	0
+E	Ē	0
+I	Ī	0
+O	Ō	0
+U	Ū	0
+@maca	ā	0
+@mace	ē	0
+@maci	ī	0
+@maco	ō	0
+@macu	ū	0
+@macA	Ā	0
+@macE	Ē	0
+@macI	Ī	0
+@macO	Ō	0
+@macU	Ū	0
+
+END_TABLE

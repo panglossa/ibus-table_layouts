@@ -1,0 +1,204 @@
+### File header must not be modified
+### This file must be encoded in UTF-8.
+###
+### For information about X-SAMPA see also
+###     http://www.phon.ucl.ac.uk/home/sampa/home.htm
+###     http://www.phon.ucl.ac.uk/home/sampa/x-sampa.htm
+###     http://www.phon.ucl.ac.uk/home/sampa/ipasam-x.pdf
+###
+### This table was mostly created by converting ipa-x-sampa.scm
+### from the uim project. See http://uim.freedesktop.org/ 
+###
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = 32125e80-b413-43cf-9922-3e7264c3462f
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20200807170115
+
+ICON = hebrew.png
+
+### The symbol to be displayed in IM switchers
+SYMBOL = H
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = HE
+
+### The default name of this table
+NAME = עִבְרִית‎
+
+### The local names of this table 
+###NAME.de_DE = 
+
+### Supported languages of this table
+LANGUAGES = heb
+
+### The author of this table
+AUTHOR = oderalon <sld@oderalon.net>
+
+### Layout
+### This table can be used with any layout capable of typing ASCII.
+### Therefore, we should not require a special layout like “us”.
+LAYOUT = default
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = TRUE
+
+### Single wildcard char (leave empty if you don’t want a wildcard character).
+SINGLE_WILDCARD_CHAR =
+
+### Multi wildcard char (leave empty if you don’t want a wildcard character).
+MULTI_WILDCARD_CHAR =
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = TRUE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = TRUE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = FALSE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = TRUE
+
+### Enable full width punctuation property
+USE_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Enable full width letter property
+USE_FULL_WIDTH_LETTER = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 2
+
+### Valid input chars.
+VALID_INPUT_CHARS == abcçdefghijklmnopqrstuvwxyzABCÇDEFGHIJKLMNOPQRSTUVWXYZ@#
+
+### The key strokes to split inputted string.
+###SPLIT_KEYS = quoteright
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = space,Return
+
+### The key strokes to forward the inputted string to client.
+### FORWARD_KEYS = Return
+
+### The key strokes to select candidiate phrases.
+SELECT_KEYS = F1,F2,F3,F4,F5,F6,F7,F8,F9
+
+### The default orientation of the candidate list
+### FALSE means the candidate list is horizontal, TRUE means it is vertical
+ORIENTATION=FALSE
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = Page_Up
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = Page_Down
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+a	א	1
+b	ב	1
+g	ג	1
+d	ד	1
+h	ה	1
+w	ו	1
+u	ו	1
+o	ו	1
+z	ז	1
+x	ח	1
+T	ט	1
+y	י	1
+i	י	1
+k	כ	1
+K	ך	1
+l	ל	1
+m	מ	1
+M	ם	1
+n	נ	1
+N	ן	1
+S	ס	1
+e	ע	1
+p	פ	1
+f	פ	1
+P	ף	1
+F	ף	1
+c	צ	1
+C	ץ	1
+q	ק	1
+r	ר	1
+s	ש	1
+t	ת	1
+A	א	1
+B	ב	1
+G	ג	1
+D	ד	1
+H	ה	1
+W	ו	1
+U	ו	1
+O	ו	1
+Z	ז	1
+X	ח	1
+Y	י	1
+I	י	1
+L	ל	1
+E	ע	1
+Q	ק	1
+R	ר	1
+#b	בּ	3
+#B	בּ	3
+#g	גּ	2
+#G	גּ	2
+#d	דּ	2
+#D	דּ	2
+#h	הּ	1
+#H	הּ	1
+#k	כּ	3
+#K	ךּ	3
+#p	פּ	3
+#P	ףּ	2
+#ç	שׁ	1
+#ç	שׂ	1
+#t	תּ	3
+j	׳	1
+J	׳	1
+#a	ַ	1
+#A	ָ	1
+#e	ֵ	1
+#E	ֶ	1
+#i	ִ	1
+#I	ִי	1
+#o	ֹ	1
+#O	וֹ	1
+#u	ֻ	1
+#U	וּ	1
+#@	ְ	1
+##	#	1
+END_TABLE
